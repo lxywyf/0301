@@ -1,0 +1,29 @@
+#include <dos.h> /*DOS接口函数*/
+
+#include <math.h> /*数学函数的定义*/
+
+#include <conio.h> /*屏幕操作函数*/
+
+#include <stdio.h> /*I/O函数*/
+
+#include <stdlib.h> /*库函数*/
+
+#include <stdarg.h> /*变量长度参数表*/
+
+#include <graphics.h> /*图形函数*/
+
+#include <string.h> /*字符串函数*/
+
+#include <ctype.h> /*字符操作函数*/
+
+#define UP 0x48 /*光标上移键*/
+
+#define DOWN 0x50 /*光标下移键*/
+
+#define LEFT 0x4b /*光标左移键*/
+
+#define RIGHT 0x4d /*光标右移键*/
+
+#define ENTER 0x0d /*回车键*/
+
+void *rar; /*全局变量,保存光标图象*/
